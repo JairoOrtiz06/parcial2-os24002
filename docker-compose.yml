@@ -1,0 +1,12 @@
+services:
+
+  apache:
+    build: .
+    container_name: server-apache2-2
+    restart: always
+    volumes:
+      - ./Prestamos:/var/www/html
+    ports:
+      - "8089:80"
+   
+
