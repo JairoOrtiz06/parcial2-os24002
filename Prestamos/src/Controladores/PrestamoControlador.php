@@ -4,6 +4,6 @@ use App\Modelos\Laptop;
 use App\Modelos\Proyectorl;
 
 class PrestamosControlador{
-
+    
 }
 ?>
